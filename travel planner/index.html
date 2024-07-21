@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS */
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Travel Planner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Itinerary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accommodation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Transportation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Budget</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Plan Your Trip</h1>
+    <!-- Destination Search -->
+    <div class="card mt-3">
+      <div class="card-header">Destination Search</div>
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Destination">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Itinerary Planning -->
+    <div class="card mt-5">
+      <div class="card-header">Itinerary Planning</div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item">Day 1: Visit Museum</li>
+          <li class="list-group-item">Day 2: Hiking Trip</li>
+          <li class="list-group-item">Day 3: Beach Day</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Accommodation Booking -->
+    <div class="card mt-5">
+      <div class="card-header">Accommodation Booking</div>
+      <div class="card-body">
+        <p>Find the best accommodation options for your trip.</p>
+        <a href="#" class="btn btn-primary">Book Accommodation</a>
+      </div>
+    </div>
+
+    <!-- Transportation Options -->
+    <div class="card mt-5">
+      <div class="card-header">Transportation Options</div>
+      <div class="card-body">
+        <p>Explore transportation options including flights, trains, or car rentals.</p>
+        <a href="#" class="btn btn-primary">View Transportation Options</a>
+      </div>
+    </div>
+
+    <!-- Budget Tracking -->
+    <div class="card mt-5">
+      <div class="card-header">Budget Tracking</div>
+      <div class="card-body">
+        <p>Track your expenses and manage your budget for the trip.</p>
+        <a href="#" class="btn btn-primary">Track Budget</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
